@@ -1,11 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cars_Knock-offs</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <style>
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
 </head>
+
 <body>
-    
+  <div id="stay"><img src="Images/logo.svg" alt="logo" id="pic"></div>
+  <div class="header1">
+
+    <div class="desktop">Desktop</div>
+    <div class="mobile">Mobile</div>
+    <div class="header3">
+      <p>Use Template</p>
+    </div>
+
+  </div>
+  <div class="swiper1">
+    <swiper-container class="mySwiper" navigation="true">
+      <swiper-slide><img src="Images\tenweb_media_0oksvY43.webp" alt="" id="pic1">
+        <div class="wording">
+          <h1>Discover Your Perfect <br>Ride</h1>
+          <p>At AutoVibe, we offer a diverse range of quality vehicles <br>including cars, trucks, and SUVs. Our dedicated team is here to <br> help you find the right fit with flexible financing options and <br> trusted service.</p>
+        <button><p>Shop Now</p></button>
+        </div>
+
+      </swiper-slide>
+      <swiper-slide><img src="Images\tenweb_media_duBoi4m5.webp" alt="" id="pic1">
+      </swiper-slide>
+    </swiper-container>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </div>
+  <div class="navbar" id="stay">
+    <img src="Images/logo_4sHit9ht.webp" alt="" id="logo1">
+    <nav>
+      <a href="cars.html" id="link1">Cars</a>
+      <a href="Trucks.html" id="link1">Trucks</a>
+      <a href="SUVs.html" id="link1">SUVs</a>
+
+    </nav>
+  </div>
+  <div class="catalogue1">
+    <h1>Browse Our Vehicles</h1>
+    <swiper-container class="mySwiper" pagination-clickable="true" slides-per-view="3" space-between="30" autoplay="true" loop="true">
+      <swiper-slide><img src="Images\tenweb_media_fLmReyiq.webp" alt="" id="picC">
+        <div class="catalogue__text">
+          <div class="overlay">
+            <h2>Trucks</h2>
+            <a href="BuyNow.html" class="btn">Shop Now</a>
+          </div>
+
+        </div>
+      </swiper-slide>
+      <swiper-slide><img src="Images\tenweb_media_GB5VeNJF.webp" alt="" id="picC">
+        <div class="catalogue__text">
+          <div class="overlay">
+            <h2>SUVs</h2>
+            <a href="BuyNow.html" class="btn">Shop Now</a>
+          </div>
+
+        </div>
+      </swiper-slide>
+      <swiper-slide><img src="Images\tenweb_media_G83FBlWl.webp" alt="" id="picC">
+        <div class="catalogue__text">
+          <div class="overlay">
+            <h2>Trucks</h2>
+            <a href="BuyNow.html" class="btn">Shop Now</a>
+          </div>
+
+        </div>
+      </swiper-slide>
+      <swiper-slide><img src="Images\tenweb_media_fLmReyiq.webp" alt="" id="picC">
+        <div class="catalogue__text">
+          <div class="overlay">
+            <h2>Cars</h2>
+            <a href="BuyNow.html" class="btn">Shop Now</a>
+          </div>
+
+        </div>
+      </swiper-slide>
+      <swiper-slide><img src="Images\tenweb_media_GB5VeNJF.webp" alt="" id="picC">
+        <div class="catalogue__text">
+          <div class="overlay">
+            <h2>SUVs</h2>
+            <a href="BuyNow.html" class="btn">Shop Now</a>
+          </div>
+
+        </div>
+      </swiper-slide>
+      <swiper-slide><img src="Images\tenweb_media_G83FBlWl.webp" alt="" id="picC">
+        <div class="catalogue__text">
+          <div class="overlay">
+            <h2>Trucks</h2>
+            <a href="BuyNow.html" class="btn">Shop Now</a>
+          </div>
+
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+  <div class="collections1">
+    <div class="collections-header">
+      <div>
+        <h2>Explore Our Collections</h2>
+        <div class="sides">
+          <p>Discover our top vehicle collections tailored for you.</p>
+          <button><a href="#" class="btn-outline">Shop Now</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="collections-grid">
+      <div class="collection-card">
+        <img src="Images\tenweb_media_IEe6ara9.webp" alt="Luxury SUV">
+        <h3>2023 Luxury SUV F</h3>
+        <p class="price">$59,999.00</p>
+        <a href="#" class="add-to-cart">Add to cart</a>
+      </div>
+
+      <div class="collection-card">
+        <div class="sale-badge">Sale!</div>
+        <img src="Images\tenweb_media_R40Prck6.webp" alt="Family SUV">
+        <h3>2023 Family SUV D</h3>
+        <p class="price"><span class="old-price">$34,999.00</span> $26,249.00</p>
+        <a href="#" class="add-to-cart">Add to cart</a>
+      </div>
+
+      <div class="collection-card">
+        <img src="Images\tenweb_media_G83FBlWl.webp" alt="Off-Road Truck">
+        <h3>2023 Off-Road Truck C</h3>
+        <p class="price">$40,000.00</p>
+        <a href="#" class="add-to-cart">Add to cart</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="why">
+    <div>
+      <H1 class="heading">Why AutoVibe Stands Out</H1>
+    </div>
+    <div class="paragraph">
+      <p>At AutoVibe, we understand that purchasing a vehicle is a significant</p>
+      <p>decision. That’s why we offer trusted service that prioritizes your</p>
+      <p>needs. Our knowledgeable team is here to guide you through every</p>
+      <p>step of the process, ensuring you find the perfect vehicle. Additionally,</p>
+      <p>we provide flexible financing options tailored to fit your budget,</p>
+      <p>making it easier than ever to drive away in your dream car. With a</p>
+      <p>commitment to customer satisfaction and a wide selection of quality</p>
+      <p>vehicles, AutoVibe is your go-to dealership for a seamless car-buying</p>
+      <p>experience.</p>
+    </div>
+  </div>
+  <img src="Images\tenweb_media_qqQ91ogC.webp" alt="" id="pic7">
+  <div class="bottomhalf">
+    <div class="promotions">
+      <section class="promo-section">
+        <div class="promo-text">
+          <h2>Current Promotions</h2>
+          <p>
+            Take advantage of our exclusive offers on cars, trucks, and SUVs.<br>
+            Save big while finding your perfect vehicle at AutoVibe!
+          </p>
+          <div class="promo-buttons">
+            <button class="btn-primary">Shop Now</button>
+            <button class="btn-outline">See New</button>
+          </div>
+        </div>
+        <div class="promo-image">
+          <img src="Images\tenweb_media_iWhzsnTe.webp" alt="Promotions Banner with Cars">
+        </div>
+      </section>
+
+    </div>
+    <div class="footer">
+
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#">Certified Pre-Owned</a></li>
+            <li><a href="#">Family Friendly</a></li>
+            <li><a href="#">Cars</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">Trucks</a></li>
+            <li><a href="#">SUVs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="#">New Arrivals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Stay Updated</h4>
+          <p>Subscribe to our newsletter for the latest updates on new arrivals and exclusive promotions.</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="footer-bottom">
+        <p>© 2024 AutoVibe. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Shop All</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-socials">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
 </body>
-</html>
